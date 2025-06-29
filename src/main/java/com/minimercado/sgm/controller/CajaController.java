@@ -24,8 +24,5 @@ public class CajaController {
         return ResponseEntity.ok(cajaService.listar());
     }
 
-    @PostMapping
-    public ResponseEntity<Caja> guardar(@RequestBody Caja caja) {
-        return ResponseEntity.ok(cajaService.guardar(caja));
-    }
+    
 }
