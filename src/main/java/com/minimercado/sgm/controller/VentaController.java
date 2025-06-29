@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/ventas")
-@Tag(name = "Ventas", description = "Gestión de ventas")
+@Tag(name = "ventas", description = "Gestión de ventas")
 public class VentaController {
 
     private final VentaService ventaService;
