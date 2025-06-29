@@ -1,4 +1,10 @@
+package com.minimercado.sgm.service;
 
+import com.minimercado.sgm.model.DetalleVenta;
+import com.minimercado.sgm.model.Venta;
+import com.minimercado.sgm.repository.DetalleVentaRepository;
+import com.minimercado.sgm.repository.VentaRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
