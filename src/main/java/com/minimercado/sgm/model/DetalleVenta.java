@@ -23,5 +23,5 @@ public class DetalleVenta {
 
     @ManyToOne
     @JoinColumn(name = "producto_id")
-    private Producto product;
+    private Producto producto;
 }
