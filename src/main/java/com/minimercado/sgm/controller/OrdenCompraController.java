@@ -24,8 +24,5 @@ public class OrdenCompraController {
         return ResponseEntity.ok(ordenCompraService.listar());
     }
 
-    @PostMapping
-    public ResponseEntity<OrdenCompra> guardar(@RequestBody OrdenCompra ordenCompra) {
-        return ResponseEntity.ok(ordenCompraService.guardar(ordenCompra));
-    }
+
 }
